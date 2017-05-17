@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0" />
   <title>当然是选择原谅她了</title>
   <style type="text/css">
@@ -44,6 +44,7 @@ setInterval(function() {
   var left = Math.floor(w * Math.random());
   node.style.top = (top < h - 30 ? top : h - 30) + 'px';
   node.style.left = (left < w - 30 ? left : w - 30) + 'px';
+  node.style.fontSize = (Math.floor(h / 30)) + 'px';
   _nodes.push(node);
   document.body.appendChild(node);
 }, 1000);
